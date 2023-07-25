@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(../BMI/BMI\ IMAGE.jpg);
+}
+
+.container{
+    margin: 80px;
+    width: 450px;
+    box-shadow: 0px 0px 20px 10px black;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+h1{
+    margin-bottom: 40px;
+    color:black;
+    font-size: 35px;
+    font-weight: bolder;
+    text-shadow: 20px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+input{
+    /* border: 2px solid rgb(0, 149, 255);
+    margin-bottom: 20px;
+    /* border-radius: 12px; */
+    padding: 10px;
+    outline: none;
+    text-align: center;
+    font-size: 22px;
+    /* box-shadow: 0px 0px 5px 2px rgb(0, 149, 255); */
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+p{
+    margin: 30px;
+    color:rgb(255, 77, 0);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+button{
+    margin-top: 35px;
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+    background-color:black;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(14, 13, 13, 0.833);
+}
+
+#output{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
